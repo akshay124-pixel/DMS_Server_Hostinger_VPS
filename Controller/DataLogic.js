@@ -4,9 +4,9 @@ const User = require("../Schema/Model");
 const XLSX = require("xlsx");
 const { sendMail } = require("../utils/mailer");
 
-// DataentryLogic - Create a single entry  
+// DataentryLogic - Create a single entry   fgfghfghfhfg
 const DataentryLogic = async (req, res) => {
-  try {
+  try { 
     const {
       customerName,
       contactName,
